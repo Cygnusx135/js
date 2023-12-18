@@ -1,0 +1,16 @@
+DATA_TYPES:
+
+1. primitive //call by value
+=> 7 categories
+  - string
+  - Number
+  - boolean
+  - null
+  - undefined
+  - symbol
+  - BigInt
+
+2. non-primitive //call by reference
+  - Arrays, Objects, Functions
+
+//javascript is dynamically typed language.
