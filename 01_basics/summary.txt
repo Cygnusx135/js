@@ -14,3 +14,27 @@ DATA_TYPES:
   - Arrays, Objects, Functions
 
 //javascript is dynamically typed language.
+
+//stack memory (primitive)
+we get a copy of the value
+
+let myName = "hari";
+let myName2 = myName;
+myName2 = "mark11"
+console.log(myName2);
+
+
+// heap memory (non-primitive)
+we get reference of the value
+
+let userOne = {
+  email: '<EMAIL>',
+  upi: 'user@ybl',
+  name: 'hari',
+};
+
+let userTwo = userOne;
+userTwo.email = 'hk@gt.com';
+
+console.log(userOne.email);
+console.log(userTwo.email);
