@@ -54,3 +54,19 @@ console.log(Object.entries(users[1]));
 
 console.log(users[0].hasOwnProperty('email'));
 console.log(users[1].hasOwnProperty('gmail'));
+
+//Destructuring
+const course = {
+  courseName: 'JavaScript',
+  instructor: 'Hari',
+  price: 100,
+  students: ['yuya', 'jubu', 'shiba'],
+};
+
+const { instructor: inst } = course;
+const { courseName, price, students } = course;
+console.log(inst);
+console.log(
+  `Coursename is ${courseName},
+   and the students who enrolled are ${students}`
+);
